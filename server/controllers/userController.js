@@ -541,6 +541,13 @@ exports.delete_user = asyncHandler(async (req, res, next) => {
 
     try{
         const user = await User.findById(user_id);
+        if(user.email == "guest@email.com"){
+            return res.status(404).json(
+                {
+                    message: "User Not Found."    
+                });
+        }
+
         if (user) {
             // Deletes the user from all other users friends, friendRequests, and outGoingFriendRequests fields
             await User.updateMany(
