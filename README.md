@@ -9,8 +9,11 @@ The frontend utilizes NodeJS, ExpressJS, [BcryptJS](https://www.npmjs.com/packag
 To run this project, you will need to add the following variables to a .env file.
 
 `MONGODBURI` -> [MongoDBURI for database](https://www.mongodb.com/docs/manual/reference/connection-string/)
+
 `ORIGINLINK` -> Link to the frontend
+
 `FACEBOOK_APP_ID` -> [Facebook App URL](https://developers.facebook.com/)
+
 `FACEBOOK_SECRET` -> [Facebook App Secret](https://developers.facebook.com/)
 
 ## Run Locally
