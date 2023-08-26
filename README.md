@@ -2,7 +2,7 @@
 
 This is the backend component of the [Fakebook App](https://github.com/JinhaKimGH/Fakebook-App).
 
-The frontend utilizes NodeJS, ExpressJS, [BcryptJS](https://www.npmjs.com/package/bcrypt) [MongooseJS](https://mongoosejs.com/docs/), and [PassportJS](https://www.passportjs.org/).
+The backend utilizes NodeJS, ExpressJS, [BcryptJS](https://www.npmjs.com/package/bcrypt) [MongooseJS](https://mongoosejs.com/docs/), and [PassportJS](https://www.passportjs.org/).
 
 ## Environment Variables
 
